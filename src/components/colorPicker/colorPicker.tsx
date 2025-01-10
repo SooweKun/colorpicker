@@ -11,7 +11,6 @@ export const ColorPicker = () => {
 
     return (
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <h2>RGBA Color Picker</h2>
             <RgbaColorPicker color={rgbaColor} onChange={handleColorChange} />
             <div
                 style={{
